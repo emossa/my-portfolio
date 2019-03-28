@@ -1,2 +1,30 @@
-# my_portfolio
-This is a wordpress theme developed by me to test my skills
+#Mio-tema Wordpress Theme
+
+A Wordpress Starter Theme create by [MarchettiDesign.net](http://www.marchettidesign.net/) 
+
+All the video of the series on how to build the theme:[http://www.marchettidesign.net/tag/tema-wordpress-da-zero/](http://www.marchettidesign.net/tag/tema-wordpress-da-zero/) 
+
+##List of the features
+
+- Resposnive
+- Custom Menu
+- Feataured Image
+- Localization Ready
+
+##Wordpress functionality
+
+- Single
+- Page
+- Search
+- Category
+- Tag
+- 404
+
+## Usage
+Copy in theme folder.
+
+## HTML & CSS
+Html & Css of the structure: [http://codepen.io/afmarchetti/pen/ozgxrB](http://codepen.io/afmarchetti/pen/ozgxrB)
+
+## Licensing
+MIT © 2016 [Andrea Marchetti](http://www.marchettidesign.net/)
