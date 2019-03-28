@@ -6,7 +6,7 @@ A Wordpress Theme create by Emanuele Mossa
 
 ##List of the features
 
-- Resposnive
+- Responsive
 - Custom Menu
 - Cover Image
 - Feataured Image
