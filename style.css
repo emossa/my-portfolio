@@ -202,6 +202,8 @@ Tablet
  	.sidebar{width:100%;}
   .content .page{width: 95%}
   .content .page h1{font-size: 1.5rem;}
+  .page__featured-image a{position: relative; color: white; text-decoration: none;}
+  .page__featured-image .content__title{font-size: 1.5rem;}
 
 
    /* Gallery */
