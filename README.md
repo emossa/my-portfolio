@@ -2,6 +2,7 @@
 
 A Wordpress Theme create by Emanuele Mossa
 
+DEMO: http://emanuelemossa.x10host.com/
 
 
 ##List of the features
