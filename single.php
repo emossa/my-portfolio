@@ -18,7 +18,15 @@
 
 
 		<?php the_content();?>
+		<?php $post_tags = wp_get_post_tags($post->ID);
+		if(!empty($post_tags)) {?>
+			<p class="tag"> <small> <strong><?php esc_html_e('Tag: ', 'miotema'); ?></strong>  </small> <br/> <?php the_tags('', ' ', ''); ?></p>
+		<?php } ?>
 
+
+		<div class="comments">
+			<?php comments_template();?>
+		</div>
 	</article>
 </div>
 
