@@ -116,6 +116,7 @@ Index, Single, Page
 	/* .post{padding:40px; border-bottom: 1px solid #eee;} */
   .post img{max-width: 100%; height: auto;}
 	.content .page{width:65%; margin: 40px auto; }
+  .content .post{width:65%; margin: 40px auto; }
   .content .tag {margin-top:40px;}
 	.content .tag a{background: #666; color:#fff; padding:5px 10px; text-decoration: none; display: inline-block;;margin-top:5px;font-size: 12px;}
   .page__featured-image{display: block; width: 100%; height: 40vh; background-position: center; background-size: cover; display: flex; justify-content: center; align-items: center;}
@@ -204,7 +205,7 @@ Tablet
   .content .page h1{font-size: 1.5rem;}
   .page__featured-image a{position: relative; color: white; text-decoration: none;}
   .page__featured-image .content__title{font-size: 1.5rem;}
-
+  .content .post{ width: 95%;}
 
    /* Gallery */
    .gallery-caption{ font-size: 12px;}
