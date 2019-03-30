@@ -32,7 +32,7 @@ if ( post_password_required() ) {
 			if ( '1' === $myportfolio_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'myportfolio' ),
+					
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
@@ -53,6 +53,7 @@ if ( post_password_required() ) {
 			wp_list_comments( array(
 				'style'      => 'ol',
 				'short_ping' => true,
+
 			) );
 			?>
 		</ol><!-- .comment-list -->

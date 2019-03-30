@@ -32,6 +32,13 @@ if ( ! function_exists( 'myportfolio_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'myportfolio_setup' );
 
+
+/*  Register comment reply
+/* ------------------------------------ */
+if ( is_singular( 'post' ) && comments_open() && get_option( 'thread_comments' ) )
+		wp_enqueue_script( 'comment-reply' );
+
+
 /*  Register sidebars
 /* ------------------------------------ */
 if ( ! function_exists( 'myportfolio_sidebars' ) ) {
