@@ -22,7 +22,12 @@
 
 								</a>
 
-
+								<?php wp_link_pages( array(
+									'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'myportfolio' ) . '</span>',
+									'after'       => '</div>',
+									'link_before' => '<span>',
+									'link_after'  => '</span>',
+								) ); ?>
 								<div class="post__info">
 									<h2 class="post__info__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
